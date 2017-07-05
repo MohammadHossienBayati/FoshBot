@@ -35,7 +35,7 @@ print(f + u + i + c)
 
 @bot.message_handler(content_types=['text', 'audio', 'document', 'photo', 'sticker', 'video', 'voice', 'location'])
 def us(m):
-    file = open("koskesh.db","r")
+    file = open("fuckbot.db","r")
     file = file.read()
     new = file.split(",")
     bot.send_message(m.chat.id, random.choice(new))
