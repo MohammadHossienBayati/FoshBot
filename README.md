@@ -1,4 +1,4 @@
-`git clone https://github.com/MohammadHossienBayati/FoshBot`sh
+sh`git clone https://github.com/MohammadHossienBayati/FoshBot`
 `Enter Token and line 13 `
 ` python foosh.py`
 
